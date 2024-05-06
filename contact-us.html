@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <link rel="icon" href="icon.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websiter - Website Making Services</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('computer-pc-website-making-background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px;
+            color: #000;
+        }
+
+        .section {
+            margin-bottom: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .section h2 {
+            font-size: 36px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin: 0 auto;
+        }
+
+        .services {
+            display: flex; /* Use flexbox */
+            justify-content: space-between; /* Evenly distribute columns */
+        }
+        .column {
+    width: calc(33.33% - 20px); /* Make each column one-third of the container's width */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-right: 20px; /* Add margin between columns */
+}
+
+.column:last-child {
+    margin-right: 0; /* Remove margin for the last column */
+}
+
+.columncontainer {
+width:calc(33.33% - 20px);
+height:500px;
+margin-right:20px;
+display: inline-block; /* Stack column containers beside each other */
+    vertical-align: top; /* Align column containers to the top */
+
+}
+        .column h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .column p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+
+        #popupButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+
+  #popupButton:hover {
+transform: scale(1.4);
+  }
+
+
+  #popupContainerAuto {
+    position: fixed;
+    bottom: 70px;
+    left: 20px;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+  #popupContainerAuto:hover {
+transform: scale(1.1);
+  }
+
+
+
+   #popupButton img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .button1 {
+      height: 50px;
+      width: 180px;
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+      font-size: 20px;
+      border-radius: 12px;
+      transition-duration: 0.4s;
+	  
+    }
+
+    .button1:hover {
+      background-color: black;
+      color: white;
+transform: scale(1.2);
+    }
+
+
+
+    main {
+      padding: 20px;
+    }
+
+    .featured-products {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .product-cards-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .product-card {
+      border: 5px solid black;
+      border-radius: 50px;
+      padding:10px;
+	  height: 500px;
+      background-color:white;
+      width: 300px;
+      margin-bottom: 20px;
+      margin-left: 40px;
+    }
+
+    .product-card:hover {    
+        transform: scale(1.1);
+
+}
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+    }
+.center1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+
+
+.center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-top:30px;
+    }
+
+
+
+.center5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+
+
+h3 {
+      text-align: center
+}
+    footer {
+      background-color: white;
+      opacity:80%;
+      color:black;
+      padding: 10px;
+      text-align: center}
+
+    .product-card h3 {
+      font-size: 25px;
+  margin-top: 10 px;
+}
+
+    .product-card p {
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+
+    
+    form {
+      background-color: white;
+      padding: 40px;
+      border: 2px solid black;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px grey;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-size: 18px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+
+    button {
+      height: 40px;
+      width: 180px;
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+      font-size: 20px;
+      border-radius: 12px;
+      transition-duration: 0.4s;
+    }
+
+    button:hover {
+      background-color: grey;
+      color: white;
+      
+      cursor:pointer;
+    }
+
+
+    .product-card a {
+      display: block;
+      text-align: center;
+      background-color: grey;
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+
+
+        /* Remove redundant .column definition */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="intro section">
+            <h2 style = "font-family:'Impact'">Contact Us</h2>
+            <p>Contact us and ask us anything you want and our team will reply as soon as possible!</p><BR>
+            <form action="https://formspree.io/f/mnqelvzk" method="post">
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required  autocomplete="off" placeholder="Enter your name">
+              </div>
+        
+              <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required autocomplete="off" placeholder="Enter your email">
+              </div>
+        
+              <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required  autocomplete="off" placeholder="Type your message here"></textarea>
+              </div>
+        
+              <button type="submit">Submit</button>
+            </form>
+        
+          </section>
+    </body>
+</html>
